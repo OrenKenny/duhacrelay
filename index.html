@@ -54,7 +54,7 @@
                 float: left;
                 width: 50%;
             }
-            @media screen and (max-wdith: 400px) { 
+            @media screen and (max-width: 400px) { 
                 .column {
                     width: 100%;
                 }
@@ -120,9 +120,14 @@
             p {
                 font-family: 'Roboto', Helvetica, Arial, sans-serif;
                 font-size: 1vw;
-                line-height: 2vh;
+                line-height: 3vh;
                 margin-left: 10%;
                 color: #101720; 
+            }
+            @media screen only and (max-width: 500px) {
+                .p {
+                    line-height: 2vh;
+                }
             }
             iframe {
                 margin: 0;

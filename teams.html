@@ -15,20 +15,20 @@
                 margin: 0;
             }
             .header {
-                padding: 40px;
+                padding: 5%;
                 text-align: center;
                 background: #7A1C27;
                 color: #fff1eb;
                 font-size: 2em;
             }
-            @media only screen and (max-width: 500px) {
+            @media screen and (max-width: 500px) {
                 .header {
-                    max-width: fit-content;
+                    max-width: fit-content
                 }
             }
-            @media only screen and (max-width: 500px) {
+            @media screen and (max-width: 500px) {
                 .column {
-                    width: 100%;
+                    width: 100%
                 }
             }
             .gfm-embed {
@@ -60,17 +60,23 @@
                 clear: both;
             }
             .footer {
-                padding: 20px;
+                padding: 1%;
                 text-align: center;
                 background: #7A1C27;
             }
             .fa {
-                padding: 20px;
-                font-size: 30px;
-                width: 50px;
+                padding: 0.5%;
+                font-size: 2vw;
+                width: 100%;
                 text-align: center;
                 text-decoration: none;
             }
+            @media scree and (max-width: 500px) {
+                .fa {
+                    font-size: 5vw
+                }
+            }
+                    
             .fa-instagram {
                 color: rgb(255, 255, 255);
             }
@@ -86,7 +92,7 @@
                 display: block;
                 font-family: "Anton", Helvetica, Arial, sans-serif;
                 font-size: 4vw;
-                line-height: 50px;
+                line-height: 5vh;
                 letter-spacing: 4px;
             }
             h2 {
@@ -102,8 +108,8 @@
                 text-align: left;
                 display: block;
                 font-family: 'Anton', Helvetica, Arial, sans-serif;
-                font-size: 1.8em;
-                line-height: 10px;
+                font-size: 2vw;
+                line-height: 5vh;
                 margin-left: 10%;
                 margin-top: 10%;
                 color: #101720;
@@ -120,9 +126,17 @@
             p {
                 font-family: 'Roboto', Helvetica, Arial, sans-serif;
                 font-size: 1vw;
-                line-height: 20px;
+                line-height: 5vh;
                 margin-left: 10%;
                 color: #101720; 
+            }
+            @media screen and (max-width: 500px) {
+                p {
+                    font-size: 4vw
+                }
+                h3 {
+                    font-size: 5vw
+                }
             }
             iframe {
                 margin: 10%;
@@ -140,7 +154,7 @@
                 top: 0;
                 width: 100%;
                 font-family: 'Anton', Helvetica, Arial, sans-serif;
-                font-size: 1em;
+                font-size: 1vw;
             }
             li {
                 float: left;
@@ -149,8 +163,13 @@
                 display: block;
                 color: white;
                 text-align: center;
-                padding: 14px 16px;
+                padding: 1vw 1vh;
                 text-decoration: none;
+            }
+            @media screen and (max-width: 500px) {
+                li a {
+                    font-size: 2vw
+                }
             }
             li a:hover {
                 background-color: #111;

@@ -73,7 +73,7 @@
             }
             @media screen and (max-width: 500px) {
                 .fa {
-                    font-size: 3vw
+                    font-size: 5vw
                 }
             }
             </style>
@@ -87,13 +87,13 @@
                 letter-spacing: 4px;
             }
             h2 {
-                text-align: center;
+                text-align: left;
                 display: block;
                 font-family: 'Anton', Helvetica, Arial, sans-serif;
                 font-size: 2vw;
                 line-height: 5vh;
-                margin: 10%;
-                letter-spacing: 2px;
+                margin-left: 10%;
+                color: #101720;
             }
             h3 {
                 text-align: left;
@@ -105,15 +105,6 @@
                 margin-top: 10%;
                 color: #101720;
             }
-            h4 {
-                text-align: left;
-                display: block;
-                font-family: 'Anton', Helvetica, Arial, sans-serif;
-                font-size: 2vw;
-                line-height: 10px;
-                margin-left: 10%;
-                color: #101720;
-            }
             p {
                 font-family: 'Roboto', Helvetica, Arial, sans-serif;
                 font-size: 1vw;
@@ -122,12 +113,27 @@
                 color: #101720; 
             }
             @media screen and (max-width: 500px) {
+                h1 {
+                    font-size: 5vw
+                }
+                h2 {
+                    font-size: 4vw
+                }
                 p {
                     font-size: 3vw
                 }
             }
             iframe {
                 margin: 10%;
+                width: 500px;
+                height: 371px;
+                seamless-frameborder: 0;
+                scrolling: no;
+            }
+            @media screen and (max-width: 500px) {
+                iframe {
+                    width: 10%
+                }
             }
             body { 
                 background-color: #fef4ef; repeat 0 0;
@@ -157,7 +163,7 @@
             }
             @media screen and (max-width: 500px) {
                 li a {
-                    font-size: 2vw
+                    font-size: 4vw
                 }
             }
             li a:hover {
@@ -181,13 +187,13 @@
 
 <div class="row">
     <div class="column">
-        <h3> Team Leaderboard </h3>
-        <iframe width="500" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnImReq4fiVIHOEkEDMTpuD-Poc_VRzsxCX_ecGrQN9gWW9B_47DgftNtBAebZ1iARk5Vn7EY_Hmsk/pubchart?oid=636038440&amp;format=interactive"></iframe>
+        <h2> Team Leaderboard </h2>
+        <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnImReq4fiVIHOEkEDMTpuD-Poc_VRzsxCX_ecGrQN9gWW9B_47DgftNtBAebZ1iARk5Vn7EY_Hmsk/pubchart?oid=636038440&amp;format=interactive"></iframe>
       </div>
 
     <div class="column">
-        <h3> Individual Leaderboard </h3>
-        <iframe width="500" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnImReq4fiVIHOEkEDMTpuD-Poc_VRzsxCX_ecGrQN9gWW9B_47DgftNtBAebZ1iARk5Vn7EY_Hmsk/pubchart?oid=1701079295&amp;format=interactive"></iframe>
+        <h2> Individual Leaderboard </h2>
+        <iframe seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTnImReq4fiVIHOEkEDMTpuD-Poc_VRzsxCX_ecGrQN9gWW9B_47DgftNtBAebZ1iARk5Vn7EY_Hmsk/pubchart?oid=1701079295&amp;format=interactive"></iframe>
     </div>
 </div>
 
